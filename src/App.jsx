@@ -9,13 +9,15 @@ import Skills from "./components/Skills";
 export default function App() {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Skills/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
-      <Footer/>
+      <div className="w-full overflow-hidden">
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Portfolio />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div>
     </>
   )
 }
